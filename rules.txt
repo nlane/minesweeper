@@ -1,0 +1,9 @@
+1. ARR32-C. Ensure size arguments for variable length arrays are in a valid range
+We do this by checking that the input for board width and height are within a reasonable range.
+
+2. EXP53-CPP :
+We don't use uninitialized variables anywhere in our code.
+
+3. ARR30-C:
+We do not use out of bounds array indices anywhere in our code. We always check in prior if statements. 
+
